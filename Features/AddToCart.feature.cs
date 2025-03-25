@@ -82,12 +82,12 @@ namespace Mercator_CodingExercise_QA.Features
         }
         
         [NUnit.Framework.TestAttribute()]
-        [NUnit.Framework.DescriptionAttribute("User selects the most expensive item and adds it to the cart")]
-        public async System.Threading.Tasks.Task UserSelectsTheMostExpensiveItemAndAddsItToTheCart()
+        [NUnit.Framework.DescriptionAttribute("User selects the highest price item and adds it to the cart")]
+        public async System.Threading.Tasks.Task UserSelectsTheHighestPriceItemAndAddsItToTheCart()
         {
             string[] tagsOfScenario = ((string[])(null));
             System.Collections.Specialized.OrderedDictionary argumentsOfScenario = new System.Collections.Specialized.OrderedDictionary();
-            global::Reqnroll.ScenarioInfo scenarioInfo = new global::Reqnroll.ScenarioInfo("User selects the most expensive item and adds it to the cart", null, tagsOfScenario, argumentsOfScenario, featureTags);
+            global::Reqnroll.ScenarioInfo scenarioInfo = new global::Reqnroll.ScenarioInfo("User selects the highest price item and adds it to the cart", null, tagsOfScenario, argumentsOfScenario, featureTags);
 #line 3
   this.ScenarioInitialize(scenarioInfo);
 #line hidden

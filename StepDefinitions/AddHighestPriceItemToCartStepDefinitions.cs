@@ -1,10 +1,6 @@
-using System;
 using Mercator_CodingExercise_QA.Pages;
 using NUnit.Framework;
 using OpenQA.Selenium;
-using OpenQA.Selenium.Support.UI;
-using Reqnroll;
-using static System.Runtime.InteropServices.JavaScript.JSType;
 
 namespace Mercator_CodingExercise_QA.StepDefinitions
 {
@@ -22,7 +18,7 @@ namespace Mercator_CodingExercise_QA.StepDefinitions
         {
             _driver = Hooks.Hooks.Driver;
             _loginPage = new LoginPage(_driver);
-           _productPage = new ProductsPage(_driver);
+            _productPage = new ProductsPage(_driver);
             _cartPage = new CartPage(_driver);
             _scenarioContext = scenarioContext;
         }

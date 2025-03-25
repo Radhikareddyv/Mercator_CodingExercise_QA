@@ -1,13 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using OpenQA.Selenium;
 using OpenQA.Selenium.Support.UI;
-using OpenQA.Selenium;
-using System.Globalization;
-using NUnit.Framework;
-using OpenQA.Selenium.Internal;
 
 namespace Mercator_CodingExercise_QA.Pages
 {

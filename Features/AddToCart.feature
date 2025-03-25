@@ -1,6 +1,6 @@
 ﻿Feature: Add Highest Price Item to Cart
 
-  Scenario: User selects the most expensive item and adds it to the cart
+  Scenario: User selects the highest price item and adds it to the cart
     Given I navigate to the login page
     When I enter username standard_user and password secret_sauce
     And I click the login button
